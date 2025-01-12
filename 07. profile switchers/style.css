@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+}
+#Profile-cont{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.profile-card{
+    padding: 1rem;
+    box-shadow: 0 0 16px 8px rgb(0, 0, 0,0.1) ;
+    border-radius: 5px;
+}
+
+.profile-card img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-card h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profile-card date{
+    text-align: right;
+    display: block;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+    margin: 10px 0 0 0px ;
+    justify-content: center;
+    gap: 1rem;
+}
+nav button{
+    cursor: pointer;
+    width: 100px;
+    padding: .5rem 1rem;
+    background: lightskyblue;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+nav button:hover{
+    background: blue;
+}

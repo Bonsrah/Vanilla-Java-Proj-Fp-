@@ -1,0 +1,23 @@
+#ratings{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid  black;
+
+}
+/* ☆★ */
+.empty::before{
+    content: '☆';
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.filled::before{
+    content: '★';
+    cursor: pointer;
+    font-size: 30px;
+
+}

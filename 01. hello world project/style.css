@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+h1 span{
+    color: red;
+}
+
+button{
+    padding: 1rem 2rem;
+    background: teal;
+    outline: none;
+    border: none;
+    color: white;
+    box-shadow: 4px 4px 5px 1px rgb(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: darkslategray;
+}
