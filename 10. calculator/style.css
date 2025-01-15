@@ -8,51 +8,64 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-color: #ffa177;
+    background-color: #0e0f27;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.calculator{
-    background: #e0bcbe;
-    padding: 20px;
-    border-radius:10px;
+form{
+    display: flex;
+    gap: 2rem;
 }
-.calculator form input{
+.calculator{
+    background: #94f335;
+    padding: 20px;
+    height: 340px;
+    width: 318.89px;
+    border-radius:10px;
+    border: 3px solid #ece9f7;
+}
+form .calculator input{
     border: 0;
     outline: none;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(3, 3, 3, 0.1),5px 5px 15px rgba(0, 0, 0, 0.495);
     cursor: pointer;
-    background:#949c73;
-    color:rgb(57, 54, 54) ;
-    font-size:20px ;
+    background:#191d4c;
+    color:#ece9f7 ;
+    font-size:15px ;
     margin: 10px;
 }
 
 form .display{
     display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
 
 }
 
 form .display input{
     text-align: right;
-    flex: 1;
-    font-size: 45px;
+    /* flex: ; */
+    font-size: 40px;
+    color: #ece9f7;
     box-shadow: none;
-    background-color:#e0bcbe ;
-}
+    background-color:#94f335 ;
+    border: 3px solid #ece9f7;
+    border-radius: 10px;
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+} 
 
 form input.equal{
-    width: 145px;
+    width: 124px;
 }
 
 form input.topButts{
-    background: #7b739c;
+    background: #e8f43e;
     color: #963252;
 }

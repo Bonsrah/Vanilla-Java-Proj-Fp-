@@ -8,11 +8,12 @@
 </head>
 <body>
  <div class="container">
-    <div class="calculator">
         <form>
             <div class="display">
                 <input type="text" name="display" aria-label="label"> <!-- add the aria-label attribute to avoid label error -->
             </div>
+
+            <div class="calculator">
             <div>
                 <input type="button" value="AC" onclick="display.value = '' " class="topButts">
                 <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="topButts">
@@ -42,6 +43,7 @@
                 <input type="button" value="0" onclick="display.value += '0' ">
                 <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal topButts">
             </div>
+        </div>
         </form>
     </div>
  </div>   
@@ -50,6 +52,5 @@
 
 
 
-    <script src="app.js"></script>
 </body>
 </html>
